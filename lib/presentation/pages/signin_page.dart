@@ -38,7 +38,7 @@ class SigninPage extends StatelessWidget {
                     hintText: "Enter your email id",
                     validators: [
                       FormBuilderValidators.required(
-                          errorText: "please enter password"),
+                          errorText: "please enter email"),
                     ],
                   ),
                   const SizedBox(height: 30),
